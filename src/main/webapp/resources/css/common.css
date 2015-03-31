@@ -1,0 +1,45 @@
+.container{
+	max-width: 1048px;
+}
+
+#mainContent{
+	margin-top: 28px;
+	padding: 20px;
+}
+
+#headerLogo {
+	height: 36px;
+	margin-top: 5px;
+	border-radius: 9px;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+
+.top-bar-section ul li {
+	background: transparent;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
+}
+
+#footerContentContainer{
+	padding: 0px 10px;
+}
+
+.shadowed{
+	padding: 10px;
+	box-shadow: 0px 2px 14px -5px black;
+}
+
+.shadowed_no_pad{
+	box-shadow: 0px 2px 14px -5px black;
+}
+
+@media only screen and (max-width: 40em) {
+	#copyright{ text-align: center;	}
+	.top-bar-section ul li { background: black; }
+	.top-bar-section li:not(.has-form) a:not(.button) {	background: black; }
+}

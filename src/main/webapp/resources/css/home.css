@@ -1,0 +1,40 @@
+#mainContentLogo{
+	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: #d8d8d8 solid 1px;
+}
+
+#sendMessage{
+	margin-bottom: 0px;
+}
+
+.sliderImageContainer {
+	padding: 4px;
+	background-color: #d8d8d8;
+	border-radius: 4px;
+}
+
+.sliderImage{
+	border-radius: 4px;
+}
+
+#fbFeed{
+	border: 2px solid #d8d8d8;
+	border-radius: 4px;
+}
+
+#likebox-wrapper * {
+   width: 100% !important;
+}
+
+#input_message{
+	height: 160px;
+}
+
+#header_contact{
+	text-decoration: underline;
+}
+
+#requestServiceBtn {
+	margin-bottom: 0px;
+}
