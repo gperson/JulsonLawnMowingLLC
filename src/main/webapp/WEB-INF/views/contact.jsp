@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
 <title>Julson Lawn Mowing - Contact Us</title>
 <link rel="stylesheet" href="/resources/foundation-5.5.1/css/foundation.min.css" />
 <link rel="stylesheet" href="/resources/css/common.css" />
@@ -23,7 +24,7 @@
 						<address>
 							Julson Lawn Mowing LLC<br> 
 							507 17th Ave N<br> 
-							Wahpeton, ND 58074
+							Wahpeton, ND 58075
 						</address>
 						<hr>
 						<h4>Contact Information</h4>

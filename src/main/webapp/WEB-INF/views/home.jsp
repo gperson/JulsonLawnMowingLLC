@@ -1,11 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Julson Lawn Mowing - Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="Julson Lawn Mowing provides lawn care services for Wahpeton, North Dakota and Breckenridge, Minnesota. Services include residential and commercial  mowing, trimming, fertilization, weed control, spring and fall clean up, core aeration, dethatching, edging, gravel removal and snow removal.">
+<meta name="keywords" content="lawn, lawncare, mowing, fertilizers, Wahpeton, Breckenridge, snow, removal, trimming, aeration, dethatching">
+<meta name="author" content="Grant Person">
+<title>Julson Lawn Mowing - Wahpeton and Breckenridge lawn care providers</title>
 <link rel="stylesheet" href="/resources/foundation-5.5.1/css/foundation.min.css" />
 <link rel="stylesheet" href="/resources/css/home.css" />
 <link rel="stylesheet" href="/resources/css/common.css" />
@@ -48,7 +52,7 @@
 					</div>
 					<div class="panel">
 						<p>If you have any questions please contact <a href="/contact">Jay Julson</a> at
-							(701)&#8209;642&#8209;6805 or send us a message using the fields bellow.</p>
+							(701)&#8209;642&#8209;6805 or send us a message using the fields below.</p>
 						<form:form id="sendMessageForm" modelAttribute="messageForm" action="/sendMessage">
 							<div class="row">
 								<div id="responseContainer" class="large-12 columns">
